@@ -1,0 +1,10 @@
+﻿@import "../modules/vars.scss";
+
+article{
+    margin: $article-margin 0;
+
+    p{
+        padding: $paragraph-padding;
+        /*margin: $paragraph-margin;*/
+    }
+}

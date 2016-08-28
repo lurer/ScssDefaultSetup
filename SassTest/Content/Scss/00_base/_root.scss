@@ -1,0 +1,25 @@
+﻿@import "../modules/variables.scss";
+
+
+body {
+
+    background: $body-background-color;
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    color: $default-font-color;
+    
+}
+
+
+#outer-content{
+
+}
+
+
+#inner-content{
+    max-width: 1200px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background: $content-background;
+}

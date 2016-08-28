@@ -1,0 +1,36 @@
+﻿
+
+.box-module{
+    display: flex;
+    flex-flow:row wrap;
+    max-width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.box{
+    background: #0c73a0;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.s-box{
+    @extend .box;
+    flex: 0 1 100px;
+}
+
+
+.m-box{
+    @extend .box;
+    flex: 0 1 200px;
+}
+
+
+.l-box{
+    @extend .box;
+    flex: 0 0 400px;
+}
+
