@@ -1,5 +1,7 @@
 ##Midlertidig fremgangsmåte for å gå frem :)
-Visual Studio, Scss, Grunt, Atomic Design - Base setup
+###Gjelder Windows maskiner
+
+Hvis man ikke har et oppsett med Ruby, Sass og Node installert fra før følg stegene i rekkefølge:
 
 1.	Installer Ruby http://rubyinstaller.org/downloads/
 2.	Følg oppskrift: http://www.gibedigital.com/blog/2015/may/28/compiling-sass-in-visual-studio-2015/
