@@ -22,10 +22,6 @@ Hvis man ikke har et oppsett med Ruby, Sass og Node installert fra før følg st
  }
 }
 ```
-
-4.	
-
-	
 Et forslag til ``` gruntfile.js ```
 ```
 module.exports = function (grunt) {
@@ -63,8 +59,9 @@ module.exports = function (grunt) {
 };
 ```
 
-Inspirasjon til oppsettet er hentet fra: Følg oppskrift: http://www.gibedigital.com/blog/2015/may/28/compiling-sass-in-visual-studio-2015/
+Inspirasjon til oppsettet er hentet fra: http://www.gibedigital.com/blog/2015/may/28/compiling-sass-in-visual-studio-2015/
 
 ###Tips ved feil:
 Finne ut hvor Ruby og Sass ligger: I Ruby command prompt: ``` where ruby ``` og ``` where sass ```
 Ruby og Sass må være i PATH: https://github.com/gruntjs/grunt-contrib-sass/issues/61
+
